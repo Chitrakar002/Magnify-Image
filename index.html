@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Magnify</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        .container
+        {
+            background-image: url("soma.jpg");
+            background-size: 900px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 900px;
+            height:500px;
+            position: relative;
+            margin: 50px auto;
+            border: 2px solid black;
+        }
+        /* img{
+            width:900px;
+            height:500px;
+            object-fit: cover;
+            position: absolute;
+            transform: transform.2s;
+            background-attachment: fixed;
+            
+        }*/
+        .container:hover
+        {
+            background-size: 1400px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img class ="img" src = "soma.jpg"> -->
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
